@@ -1,0 +1,18 @@
+.hero-container img{
+    position: absolute;
+    bottom: 12%;
+    left:5%;
+    max-width: 90%;
+    height: auto;
+}
+.hero-container h1{
+    position: absolute;
+    bottom: 2em;
+    left:20%;
+    color:white;
+    line-height: 4rem;
+    font-size: 3rem;
+    font-weight: 900;
+    max-width: 90%;
+    
+}
