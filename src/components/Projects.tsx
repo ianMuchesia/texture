@@ -1,27 +1,60 @@
-import React from 'react'
-import { interior, lighting, outdoor, urban } from '../assets'
-import '../styles/project.css'
+import React from "react";
+import { interior, lighting, outdoor, urban } from "../assets";
+import "../styles/project.css";
 const Projects = () => {
   return (
-    <section className='section-project'>
-      <h5>Our Projects</h5>
-      <h1>Best and standout among peers</h1>
-      <div className="line"></div>
-      <div className='project-images'>
-      <div className='image-frame'>
-      <img src={interior} alt="" />
-      <div className="hover-state"></div>
+    <section className="section-project">
+      <div className="project-title">
+        <h5>Our Projects</h5>
+        <h1>Best and standout among peers</h1>
+        <div className="line"></div>
       </div>
-        
-        <div></div>
-        <img src={outdoor} alt="" />
-        <div></div>
-        <img src={lighting} alt="" />
-        <div></div>
-        <img src={urban} alt="" />
+      {/* images section */}
+      <div className="images-project-section">
+        <div className="image-container">
+          {" "}
+          <img src={interior} alt="" />
+          <div className="image-hover">
+            <div className="absolute-project">
+            <h3>Interior Design</h3>
+            <h1>Modern Shopping Center</h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="image-container">
+          <img src={outdoor} alt="" />
+          <div className="image-hover">
+            <div className="absolute-project">
+            <h3>Outdoor Design</h3>
+            <h1>Energy Efficiency</h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="image-container">
+          {" "}
+          <img src={lighting} alt="" />
+          <div className="image-hover">
+            <div className="absolute-project">
+            <h3>Building Engineering</h3>
+            <h1>Lighting Design</h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="image-container">
+          <img src={urban} alt="" />
+          <div className="image-hover">
+            <div className="absolute-project">
+            <h3>Urban Design</h3>
+            <h1>Window Films</h1>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

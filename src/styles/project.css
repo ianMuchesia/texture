@@ -1,17 +1,120 @@
 .section-project {
   background: #333333;
+  padding: 4em 0.6em;
+  height: auto;
 }
-.section-project h5 {
+.project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7em;
+}
+.project-title h5 {
   font-weight: 500;
   font-size: 17px;
 }
-.section-project h1 {
+.project-title h1 {
   font-weight: 700;
   font-size: 53px;
   line-height: 64px;
+  color: #fff;
+  text-align: center;
+  max-width: 50%;
 }
-.line{
+.line {
   width: 130px;
   height: 2px;
   background: #fea75e;
+}
+
+.images-project-section {
+  display: grid;
+
+  grid-template-columns: 1fr;
+}
+.image-container {
+  position: relative;
+  height: 400px;
+  max-width: 100%;
+  display: inline-block ;
+  overflow: hidden;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.25%;
+  display: block;
+  transition: 1s ease-in-out;
+  
+}
+.image-container:hover img{
+  transform: scale(1.5);
+}
+.image-container:hover .image-hover{
+  display: flex;
+}
+.image-hover {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  display: none;
+
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background: rgba(254, 167, 94, 0.8);
+  transform: scale(0.8);
+  
+  animation-name: imageHover;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.absolute-project {
+  position: absolute;
+  bottom: 0;
+}
+.image-hover h3{
+  font-family:'Poppins';
+  font-size: 1.5em;
+}
+.image-hover h1{
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 2.3em;
+}
+@keyframes imageHover {
+  0%{
+    transform: scale(1);
+    background: rgba(254, 167, 94, 0.4);
+  }
+
+  100%{
+    transform: scale(0.8);
+    background: rgba(254, 167, 94, 0.8);
+    
+  }
+  
+}
+@media screen and (min) {
+}
+@media screen and (min-width: 768px) {
+  .images-project-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1em;
+  }
+  .image-container {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .images-project-section {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.4rem;
+  }
 }
