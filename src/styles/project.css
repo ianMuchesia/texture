@@ -1,0 +1,17 @@
+.section-project {
+  background: #333333;
+}
+.section-project h5 {
+  font-weight: 500;
+  font-size: 17px;
+}
+.section-project h1 {
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 64px;
+}
+.line{
+  width: 130px;
+  height: 2px;
+  background: #fea75e;
+}

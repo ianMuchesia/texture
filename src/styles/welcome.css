@@ -1,0 +1,61 @@
+.section-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 2em;
+}
+.welcome-content h1 {
+  font-size: 2rem;
+ 
+  color: #444444;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 64px;
+}
+.welcome-content p {
+ 
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 1rem;
+}
+.welcome-content button {
+  color: #3d3d3d;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 18px;
+  padding: 15px 38.1094px 15px 38px;
+}
+.stairs-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stairs-images img{
+    height: auto;
+    max-width: 40%;
+}
+@media screen and (min-width:768px) {
+    .section-welcome{
+        flex-direction: row;
+    }
+    .welcome-content{
+        align-items: flex-start;
+    }
+  
+    .stairs-images{
+        min-width: 48%;
+    }
+    
+}
+

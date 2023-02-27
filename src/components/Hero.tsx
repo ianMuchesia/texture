@@ -10,7 +10,7 @@ const Hero = () => {
       backgroundImage: `url(${hero_image})`,
       backgroundSize:"cover",
      /*  backgroundPosition:"center center", */
-      backgroundAttachment:"fixed", 
+     /*  backgroundAttachment:"fixed", */ 
       position:'relative',
       top:'-6em',
       /* zIndex:'5', */
@@ -21,6 +21,7 @@ const Hero = () => {
     }} >
       <div className='hero-container'>
     <img src={frame} alt="frame" />
+   
     <h1>We are Stargaze architecture agency</h1>
       </div>
 
