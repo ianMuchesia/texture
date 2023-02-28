@@ -8,8 +8,9 @@ import Projects from "./Projects";
 import Services from "./Services";
 import Specialization from "./Specialization";
 import Testimonial from "./Testimonial";
+import CurrentProject from "./CurrentProject";
 
 
 export {
-    Navbar, Hero, Welcome, Contact,Experience, Footer,Projects,Services, Specialization, Testimonial
+    Navbar, Hero, Welcome, Contact,Experience, Footer,Projects,Services, Specialization, Testimonial, CurrentProject
 }

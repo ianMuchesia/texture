@@ -63,3 +63,28 @@ h5 {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7em;
+}
+.section-title h5 {
+  font-weight: 500;
+  font-size: 0.75;
+  
+  text-transform: uppercase;
+}
+.section-title h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 64px;
+ 
+  text-align: center;
+  max-width: 60%;
+}
+.line {
+  width: 130px;
+  height: 2px;
+  background: #fea75e;
+}

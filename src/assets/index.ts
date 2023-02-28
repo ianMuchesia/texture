@@ -7,7 +7,8 @@ import interior from './interior.jpg'
 import lighting from './lighting.jpg'
 import outdoor from './outdoor.jpg'
 import urban from './urban.jpg'
-
+import currentProject from './currentProject.jpg'
+import footerBackground from './footerBackground.jpg'
 export{
-    logo, hero_image,frame, stairs2, stairs,interior , lighting, outdoor , urban
+    logo,currentProject,footerBackground, hero_image,frame, stairs2, stairs,interior , lighting, outdoor , urban
 }

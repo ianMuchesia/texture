@@ -1,5 +1,6 @@
 
-import { Hero, Navbar, Projects, Welcome } from "./components"
+
+import { Hero, Navbar, Projects, Welcome,CurrentProject, Specialization, Contact  } from "./components"
 
 function App() {
   
@@ -11,6 +12,9 @@ function App() {
     <Hero/>
     <Welcome/>
     <Projects/>
+    <Specialization/>
+    <CurrentProject/>
+    <Contact/>
 </main>
     </>
   )

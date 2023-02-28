@@ -3,30 +3,12 @@
   padding: 4em 0.6em;
   height: auto;
 }
-.project-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 7em;
-}
-.project-title h5 {
-  font-weight: 500;
-  font-size: 17px;
-}
-.project-title h1 {
-  font-weight: 700;
-  font-size: 53px;
-  line-height: 64px;
+.project-title h5{
   color: #fff;
-  text-align: center;
-  max-width: 50%;
 }
-.line {
-  width: 130px;
-  height: 2px;
-  background: #fea75e;
+.project-title h1{
+  color: #fff;
 }
-
 .images-project-section {
   display: grid;
 

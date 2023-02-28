@@ -1,8 +1,12 @@
 import React from 'react'
+import { footerBackground } from '../assets'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+   <section
+   style={{
+    backgroundImage: `url(${footerBackground})`
+   }}></section>
   )
 }
 
