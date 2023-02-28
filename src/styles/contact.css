@@ -1,0 +1,43 @@
+.section-contact{
+    background-size: cover;
+    background-position: left ;
+    background-repeat: no-repeat;
+    position: relative;
+    min-width: 100%;
+    margin-top: 150px;
+    
+    color: #fff;
+    height:150vh;
+   
+
+}
+.contact-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 2em;
+
+}
+.tel-numbers{
+    border: 0.7rem solid var(--color-secondary);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:2em 1em;
+    min-width: 75%;
+
+
+}
+.tel-numbers h5{
+    font-size: 0.8em;
+    font-family: 'Poppins';
+    font-weight: 500;
+
+}

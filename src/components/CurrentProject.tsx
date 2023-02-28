@@ -4,7 +4,7 @@ import { currentProject, frame } from '../assets'
 const CurrentProject = () => {
   return (
    <section className='current-project'>
-    <div className="section-title">
+    <div className="section-title ">
         <h5>CURRENT PROJECT</h5>
         <h1>The lodge woonden in the london</h1>
         <div className="line"></div>
