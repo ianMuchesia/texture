@@ -18,7 +18,7 @@ const Hero = () => {
      minWidth:'100%'
       
       
-    }} >
+    }} className='section-hero' >
       <div className='hero-container'>
     <img src={frame} alt="frame" />
    

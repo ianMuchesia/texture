@@ -7,7 +7,7 @@
     margin-top: 150px;
     
     color: #fff;
-    height:150vh;
+    height:200vh;
    
 
 }
@@ -30,14 +30,84 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding:2em 1em;
-    min-width: 75%;
+    padding:3em 1em;
+    min-width: 90%;
 
 
 }
-.tel-numbers h5{
+.tel-number {
     font-size: 0.8em;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 700;
 
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+  
+}
+.title-form p{
+    margin-top: 1rem;
+    text-align: center;
+}
+.input-container{
+    margin-top: -5em;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+   max-width: 90%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.text-form{
+    width: 100%;
+    margin:1em 0em;
+    padding: 1em 1.6em;
+    font-size: 1rem;
+    color: rgb(78, 76, 76);
+    background-color:  rgb(209, 207, 207) ;
+    border: none;
+    border-radius: 2%;
+}
+.text-form:focus{
+    background-color: #fff;
+}
+.input-comment{
+    width: 80%;
+    margin:1em 0em;
+    padding: 1em 1.6em;
+    font-size: 1rem;
+    color: rgb(78, 76, 76);
+    background-color:  rgb(209, 207, 207) ;
+    border: none;
+    border-radius: 2%;
+}
+.form-btn{
+    padding: 1em 1.6em;
+    background: transparent;
+    border: 2px solid #fff;
+    color:#fff;
+    text-transform: uppercase;
+    display: block;
+}
+@media screen and (min-width: 968px) {
+    .section-contact{
+        height: 100vh;
+    }
+    .contact-container{
+        flex-direction: row-reverse;
+    }
+    .tel-numbers{
+        min-width: 40%;
+    }
+    .contact-form{
+        max-width: 55%;
+        height: auto;
+    }
+    .input-form{
+        flex-direction: row;
+        gap:1em;
+    }
 }

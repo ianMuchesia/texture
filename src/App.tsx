@@ -6,6 +6,7 @@ import {
   CurrentProject,
   Specialization,
   Contact,
+  Footer,
 } from "./components";
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
         <Welcome />
         <Projects />
         <Specialization />
-        <CurrentProject />
-        <Contact />
+        <CurrentProject /> 
+     <Contact /> 
       </main>
+      <Footer />
     </>
   );
 }

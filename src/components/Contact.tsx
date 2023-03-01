@@ -19,7 +19,7 @@ const Contact = () => {
       <h5 className="opening-hours">Monday  Friday 09.00  23.00Sunday 09.00  16.00</h5>
     </div>
     <form className="contact-form">
-      <div className="section-title">
+      <div className="section-title title-form">
         <h5>Contact us</h5>
         <h1>get in touch</h1>
         <div className="line"></div>
@@ -27,29 +27,32 @@ const Contact = () => {
         Drops of rain could be heard hitting the pane, which made him feel quite sad. "How about if I sleep a little bit longer and forget all this nonsense"
         </p>
       </div>
+      <div className='input-container'>
       <div className="input-form">
         <input 
         type="text"
         placeholder='Full Name*'
         className='text-form' />
           <input 
-        type="text"
-        placeholder='Full Name*'
+        type="email"
+        placeholder='Email*'
         className='text-form' />
           <input 
         type="text"
-        placeholder='Full Name*'
+        placeholder='Phone Number*'
         className='text-form' />
+         </div>
+        
         <textarea 
           rows={3}
           cols={40}
-          placeholder='message'
+          placeholder='Message'
           className='input-comment'
         />
-        <button>
+        <button className='form-btn'>
           send message
         </button>
-      </div>
+        </div>
     </form>
     </div>
    </section>
